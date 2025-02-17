@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirstDemo", "DatabaseFirstDemo\DatabaseFirstDemo.csproj", "{D5E3B245-561E-444E-BBB4-D7374B01CB12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemo", "CodeFirstDemo\CodeFirstDemo.csproj", "{5CA47E13-429D-49CB-98C8-217203400BBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversePOCO", "ReversePOCO\ReversePOCO.csproj", "{F7B368DA-46A9-43D6-8274-9C7FDF261271}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NonEntityFramework", "NonEntityFramework\NonEntityFramework.sqlproj", "{97B437F6-D6AF-4C5B-894F-1FACA1CF64D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E3B245-561E-444E-BBB4-D7374B01CB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E3B245-561E-444E-BBB4-D7374B01CB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E3B245-561E-444E-BBB4-D7374B01CB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E3B245-561E-444E-BBB4-D7374B01CB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA47E13-429D-49CB-98C8-217203400BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA47E13-429D-49CB-98C8-217203400BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA47E13-429D-49CB-98C8-217203400BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA47E13-429D-49CB-98C8-217203400BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B368DA-46A9-43D6-8274-9C7FDF261271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B368DA-46A9-43D6-8274-9C7FDF261271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B368DA-46A9-43D6-8274-9C7FDF261271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B368DA-46A9-43D6-8274-9C7FDF261271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B437F6-D6AF-4C5B-894F-1FACA1CF64D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B437F6-D6AF-4C5B-894F-1FACA1CF64D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B437F6-D6AF-4C5B-894F-1FACA1CF64D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{97B437F6-D6AF-4C5B-894F-1FACA1CF64D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B437F6-D6AF-4C5B-894F-1FACA1CF64D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B437F6-D6AF-4C5B-894F-1FACA1CF64D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92DA1658-4C59-4A97-99EA-EA6F8D178D1F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bli1962.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CodeFirstDemo\\CodeFirstDemo.csproj
+		SccProjectName1 = CodeFirstDemo
+		SccLocalPath1 = CodeFirstDemo
+		SccProjectUniqueName2 = DatabaseFirstDemo\\DatabaseFirstDemo.csproj
+		SccProjectName2 = DatabaseFirstDemo
+		SccLocalPath2 = DatabaseFirstDemo
+		SccProjectUniqueName3 = NonEntityFramework\\NonEntityFramework.sqlproj
+		SccProjectName3 = NonEntityFramework
+		SccLocalPath3 = NonEntityFramework
+		SccProjectUniqueName4 = ReversePOCO\\ReversePOCO.csproj
+		SccProjectName4 = ReversePOCO
+		SccLocalPath4 = ReversePOCO
+	EndGlobalSection
+EndGlobal

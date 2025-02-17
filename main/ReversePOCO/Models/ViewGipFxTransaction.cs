@@ -1,0 +1,125 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace ReversePOCO.Models
+{
+    public partial class ViewGipFxTransaction
+    {
+        public string RefNo { get; set; }
+        public string Dealno { get; set; }
+        public short? Transcode { get; set; }
+        public string Dealtype { get; set; }
+        public string Subtype { get; set; }
+        public string ActCd { get; set; }
+        public string ActAbbr { get; set; }
+        public string CustCode { get; set; }
+        public string CustAbbr { get; set; }
+        public string BranchNo { get; set; }
+        public string DivisionCd { get; set; }
+        public string IbfId { get; set; }
+        public string SchemeNo { get; set; }
+        public string Authorized { get; set; }
+        public string Revise { get; set; }
+        public string CoverPoFlg { get; set; }
+        public DateTime? ContractDateOpe { get; set; }
+        public DateTime? ContractDateValue { get; set; }
+        public DateTime? DelivaryDate { get; set; }
+        public DateTime? DelivaryThru { get; set; }
+        public DateTime? AccrualFrom { get; set; }
+        public DateTime? AccrualTo { get; set; }
+        public string CcyCd { get; set; }
+        public string ContractCcyCd { get; set; }
+        public string ContractCcyAbbr { get; set; }
+        public decimal? ContractCcyAmt { get; set; }
+        public decimal? ContractCcyBal { get; set; }
+        public decimal? ContractCcyTtb { get; set; }
+        public string EquivCcyCd { get; set; }
+        public string EquivCcyAbbr { get; set; }
+        public decimal? EquivCcyAmt { get; set; }
+        public decimal? EquivCcyBal { get; set; }
+        public decimal? EquivCcyTtb { get; set; }
+        public decimal? ExchangeRate { get; set; }
+        public decimal? InternalRate { get; set; }
+        public decimal? Spread { get; set; }
+        public string AccountEntry { get; set; }
+        public string Broker { get; set; }
+        public string Remarks { get; set; }
+        public string SwapRefNo { get; set; }
+        public string StatusCd { get; set; }
+        public string Addressee { get; set; }
+        public string Code56 { get; set; }
+        public string Code57 { get; set; }
+        public string Code57a { get; set; }
+        public string Code58 { get; set; }
+        public string Setinstruction { get; set; }
+        public string Dealer { get; set; }
+        public int? Optionsflag { get; set; }
+        public string AddBy { get; set; }
+        public DateTime? AddOn { get; set; }
+        public string AuthorizeBy { get; set; }
+        public DateTime? AuthorizeOn { get; set; }
+        public string Status { get; set; }
+        public string GipStatus { get; set; }
+        public string GipDescription { get; set; }
+        public string TranNo { get; set; }
+        public int? Executionrefno { get; set; }
+        public DateTime? SettlementValueDate { get; set; }
+        public string RecSettlCode { get; set; }
+        public string RecCustAbbr { get; set; }
+        public string RecActCd { get; set; }
+        public string RecActNo { get; set; }
+        public string RecAdviceRecFlg { get; set; }
+        public string RecMethod { get; set; }
+        public string RecMessageType { get; set; }
+        public string RecPriortyFlg { get; set; }
+        public string RecRmtFlg { get; set; }
+        public string RecRelatedRef { get; set; }
+        public string RecOrderingCustomer { get; set; }
+        public string RecRecBank { get; set; }
+        public string RecOrderingBank { get; set; }
+        public string RecIntermediaryBank { get; set; }
+        public string RecKihyoIrai { get; set; }
+        public string RecHoFavorMt202 { get; set; }
+        public string RecOtherMethod { get; set; }
+        public string RecOtherRmtFlg { get; set; }
+        public string RecOtherDr { get; set; }
+        public string RecOtherCr { get; set; }
+        public string PaySettlCode { get; set; }
+        public string PayActCd { get; set; }
+        public string PayCustAbbr { get; set; }
+        public string PayActNo { get; set; }
+        public string PayMethod { get; set; }
+        public string PayMessageType { get; set; }
+        public string PayPriortyFlg { get; set; }
+        public string PayRmtFlg { get; set; }
+        public string PayAdviceRecFlg { get; set; }
+        public string PayRecBank { get; set; }
+        public string PaySenderCorres { get; set; }
+        public string PayIntermediaryBank { get; set; }
+        public string PayReceiverCorres { get; set; }
+        public string PayAccBank { get; set; }
+        public string PayBeneficiary { get; set; }
+        public string PayOrderingCustomer { get; set; }
+        public string PayPaymentDetails1 { get; set; }
+        public string PayPaymentDetails2 { get; set; }
+        public string PayPaymentDetails3 { get; set; }
+        public string PayPaymentDetails4 { get; set; }
+        public string Banktobankinf { get; set; }
+        public string PayKihyoIrai { get; set; }
+        public string PayHoFavorMt202 { get; set; }
+        public string PayOtherMethod { get; set; }
+        public string PayOtherRmtFlg { get; set; }
+        public string PayOtherDr { get; set; }
+        public string PayOtherCr { get; set; }
+        public int? OperationId { get; set; }
+        public string SettleTranNo { get; set; }
+        public string SettlementAuthorizeBy { get; set; }
+        public string GbaseContractAmt { get; set; }
+        public string GbaseEquivCcyAmt { get; set; }
+        public string GbaseDeliveryContractAmt { get; set; }
+        public int Bank { get; set; }
+        public string ExecutionRefNo1 { get; set; }
+    }
+}
